@@ -4,6 +4,6 @@ class miButton(App):
 
     def build(self):
 
-        return Button(text = 'Entrar')
+        return Button(text = 'Entrar', background_color = (155,0,51,53))
 
 miButton().run()
